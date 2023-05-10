@@ -1,0 +1,51 @@
+.changeButton {
+    background-color: #18aaca;
+    border: 1px solid;
+    color: #ffffff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
+      border-color 0.2s ease-in-out;
+  }
+.changeButton{
+        width: 180px;
+        height: 35px;
+        border-radius: 35px;
+        font-size: 14px;
+        text-align: center;
+        margin: auto;
+        display: block;
+        font:caption;
+        -webkit-border-radius: 35px;
+        -moz-border-radius: 35px;
+        -ms-border-radius: 35px;
+        -o-border-radius: 35px;
+}
+  .header {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 54px;
+    color: #ffffff;
+    text-align: center;
+  }
+  .prueba {
+    box-shadow: 0px 0px 5px 0px rgba(165, 163, 163, 0.75);
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    height: 19em;
+    background-color: #f8eeee;
+}
+body {
+    background-image: url('./assets/Back-Clima.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  
+
+
+  

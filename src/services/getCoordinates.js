@@ -1,3 +1,4 @@
+//getcoordinates.js
 export const getCoordinates = async () => {
     try {
         const position = await new Promise(( resolve, reject ) => {
