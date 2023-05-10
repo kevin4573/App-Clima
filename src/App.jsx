@@ -115,7 +115,7 @@ function App() {
       
     </Box>
     <br /><br />
-    <div className='prueba'>
+    <div className='div-clima'>
     {weather ? (
       <Box sx={{ mt: 2, display: 'grid', gap: 2, textAlign: 'center' }}>
         <Typography variant="h4" component="h2">
