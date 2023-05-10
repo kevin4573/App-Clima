@@ -49,7 +49,7 @@ function App() {
       setLoading(false);
     }
   };
-
+  // USE EFFECT
   useEffect(() => {
     const loadWeather = async () => {
       const coordinates = await getCoordinates();
@@ -62,9 +62,9 @@ function App() {
       }
     };
     loadWeather();
-  }, []);
+  }, []); 
   
-return (
+  return (
   <Container maxWidth="xs" sx={{ mt: 2 }}>
     <h1 className='header'>Weather App</h1>
     <Box
@@ -148,9 +148,7 @@ return (
     )}
     </div>
   </Container>
-);
-
-  
+); 
 }
 
 export default App;
