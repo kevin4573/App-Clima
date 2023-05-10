@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 import { getCoordinates } from './services/getCoordinates';
 import { getCurrentWeather } from './services/getCurrentWeather';
 import { useState } from 'react';
-import { Container, Box, TextField, Typography } from '@mui/material';
+import { Container, Box, Typography } from '@mui/material';
 import { LoadingButton } from '@mui/lab';
 import axios from 'axios';
 import { kelvinToCelcius } from "./utils/kelvinToCelcius";
